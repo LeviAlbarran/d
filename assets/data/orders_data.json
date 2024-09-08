@@ -1,0 +1,68 @@
+{
+  "counters": {
+    "retirados": "0/3",
+    "entregados": "0/3"
+  },
+  "orders": [
+    {
+      "id": 1,
+      "orderNumber": "ORD-001",
+      "address": "Av. libertador bernardo O'Higgins 8894 Depto 231",
+      "timeWindow": "12:00 - 13:00",
+      "client": "Juan Perez Ramirez",
+      "status": "Pendiente de retiro",
+      "latitude": -33.4569400,
+      "longitude": -70.6482700,
+      "packages": 2,
+      "isPrime": true,
+      "hasFrozen": false,
+      "hasCigarettes": true,
+      "hasAlcohol": false
+    },
+    {
+      "id": 2,
+      "orderNumber": "ORD-002",
+      "address": "Avenida Suberseaux 1234",
+      "timeWindow": "12:00 - 13:00",
+      "client": "Juan Perez Ramirez",
+      "status": "Pendiente de retiro",
+      "latitude": -33.4509400,
+      "longitude": -70.6482700,
+      "packages": 1,
+      "isPrime": false,
+      "hasFrozen": true,
+      "hasCigarettes": false,
+      "hasAlcohol": true
+    },
+    {
+      "id": 3,
+      "orderNumber": "ORD-003",
+      "address": "Profesor Alcaino Depto 89",
+      "client": "Carlos Gonzalez Ramirez",
+      "timeWindow": "12:00 - 13:00",
+      "status": "Pendiente de retiro",
+      "latitude": -33.4489400,
+      "longitude": -70.6502700,
+      "packages": 3,
+      "isPrime": true,
+      "hasFrozen": true,
+      "hasCigarettes": false,
+      "hasAlcohol": false
+    },
+    {
+      "id": 4,
+      "orderNumber": "ORD-004",
+      "address": "Plaza de la constitución 9927",
+      "client": "Rodrigo Cañizales Martinez",
+      "timeWindow": "12:00 - 13:00",
+      "status": "Pendiente de retiro",
+      "latitude": -33.4429400,
+      "longitude": -70.6542700,
+      "packages": 1,
+      "isPrime": false,
+      "hasFrozen": false,
+      "hasCigarettes": false,
+      "hasAlcohol": true
+    }
+  ]
+}
